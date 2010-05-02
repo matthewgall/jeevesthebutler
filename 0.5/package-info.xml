@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+        <id>MatthewGall2005:SMFShopJeeves</id>
+	  <name>SMF Shop - Jeeves The Butler (Special Edition)</name>
+	  <version>0.5.0</version>
+	  <type>modification</type>
+	  <install>        
+                <readme type="inline">SMF Shop - Jeeves The Butler (Special Edition) is the programmer's first ever PHP file.  This edition doesn't have any spiffy functions, but it's still fun!  This edition was specially released for Net 3000 registered users on 12th May 2007 to celebrate the upgrade of Jeeves v1.0.0 to Jeeves v1.0.1.  Enjoy!</readme>               
+                <require-file name="jeeves.php" destination="$sourcedir/shop/items" />
+        </install>
+        <uninstall>
+                <readme type="inline">Thanks for trying this mod.</readme>
+		<remove-file name="$sourcedir/shop/items/jeeves.php" />
+</uninstall>
+</package-info>

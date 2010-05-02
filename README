@@ -1,0 +1,16 @@
+=== Jeeves The Butler ===
+Contributors: Matthew Gall, Stephen Ashton
+Version: 0.5.0
+
+Jeeves the Butler is the comical butler plugin for SMFShop, in which users can request items and receive funny responses.
+
+== Installation ==
+
+1. In your SMF Package Manager, upload the jeeves.smfshop.zip file
+2. Follow the prompts and complete the installation
+3. Add your product to your shop, customise and enjoy!
+
+== Changelog ==
+
+= 0.5 =
+* Initial release.
