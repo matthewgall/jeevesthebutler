@@ -1,20 +1,7 @@
 <?php
 /**********************************************************************************
-* SMFShop item                                                                    *
-***********************************************************************************
-* SMFShop: Shop MOD for Simple Machines Forum                                     *
+* SMFShop: Jeeves The Butler                                                      *
 * =============================================================================== *
-* Software Version:           SMFShop 3.0 (Build 12)                              *
-* $Date:: 2007-01-18 19:26:55 +1100 (Thu, 18 Jan 2007)                          $ *
-* $Id:: testitem2.php 79 2007-01-18 08:26:55Z daniel15                          $ *
-* Software by:                DanSoft Australia (http://www.dansoftaustralia.net/)*
-* Copyright 2005-2007 by:     DanSoft Australia (http://www.dansoftaustralia.net/)*
-* Support, News, Updates at:  http://www.dansoftaustralia.net/                    *
-*                                                                                 *
-* Forum software by:          Simple Machines (http://www.simplemachines.org)     *
-* Copyright 2006-2007 by:     Simple Machines LLC (http://www.simplemachines.org) *
-*           2001-2006 by:     Lewis Media (http://www.lewismedia.com)             *
-***********************************************************************************
 * This program is free software; you may redistribute it and/or modify it under   *
 * the terms of the provided license as published by Simple Machines LLC.          *
 *                                                                                 *
@@ -32,16 +19,7 @@
 if (!defined('SMF'))
 	die('Hacking attempt...');
 
-/*
- * This is a test item that gets some input from the person using it. 
- * Most likely, you'll base your item off this one.
- * Note that all items should try to follow the SMF Coding Guidelines, available
- * from http://custom.simplemachines.org/mods/guidelines.php
- *
- * Your class should always be called item_filename, eg. if your file is 
- * myCoolItem.php then the class should be called 'item_myCoolItem'. This 
- * class should always extend itemTemplate.
- */
+// So first of all we declare the class
 class item_jeeves extends itemTemplate
 {
 	// When this function is called, you should set all the item's
